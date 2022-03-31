@@ -73,7 +73,7 @@ function animate(timeStamp){
         ctx.fillRect(0,0,canvas.width, canvas.height);
         ctx.fillStyle = gradient; '#0aff0a';
         ctx.font = effect.fontSize + 'px monospace'
-        effect.symbols.forEach(symbold => symbold.draw(ctx));
+        effect.symbols.forEach(symbol => symbol.draw(ctx));
         timer = 0;
     } else {
         timer += delatTime;
